@@ -22,3 +22,5 @@ CREATE TABLE invoice
   article_price decimal,
   PRIMARY KEY (invoice_id, article_name)
 );
+
+CREATE INDEX ON invoice(invoice_date);
