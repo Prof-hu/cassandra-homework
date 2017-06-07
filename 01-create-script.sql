@@ -20,5 +20,5 @@ CREATE TABLE invoice
   line_id int,
   article_name text,
   article_price decimal,
-  PRIMARY KEY (invoice_id, line_id)
+  PRIMARY KEY (invoice_id, article_name)
 );
